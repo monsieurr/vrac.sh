@@ -1,7 +1,7 @@
 # vrac.sh
 
 ## Objectif
-Partager mes scripts bash, en vrac.
+Partager mes scripts (et commandes, dans ce fichier) bash, en vrac.
 
 ## Liste
 - ytmp3.sh : télécharger et convertir les vidéos youtube en .mp3, dans la meilleure qualité disponible (si possible) - nécessite yt-dlp
