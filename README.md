@@ -7,6 +7,7 @@ Partager mes scripts bash, en vrac.
 ## Liste
 - ytmp3.sh : télécharger et convertir les vidéos youtube en .mp3, dans la meilleure qualité disponible (si possible) - nécessite yt-dlp
 - twdl.sh : télécharger les VODs Twitch, fournir ID ou URL de la / des vidéos - nécessite yt-dlp
+- dupl.sh : trouver les fichiers duplicats - brouillon
 
 
 ## Quelques commandes en vrac
