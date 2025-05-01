@@ -16,6 +16,11 @@ Afficher les fichiers dans le dossier courant et tous les dossiers et fichiers e
 ls -PRFl
 ```
 
+Trouver tous les fichiers .mkv (possible de remplacer le *.mkv pour changer les fichiers ciblés) présents dans les sous-dossier du dossier courant et les déplacer dans le dossier courant.
+```bash
+find . -mindepth 2 -type f -name "*.mkv" -exec mv -v {} . \;
+```
+
 Ouvrir le lecteur Twitch avec Streamlink et le chat Twitch avec Chatterino, permet d'avoir une expérience plus légère de Twitch, notamment sur les machines ayant peu de puissance.
 Si Chatterino n'est pas installé la seconde étape sera ignorée, possible aussi de retirer la boucle avec Chatterino pour simplifier si non utilisé.
 ```bash
@@ -26,3 +31,4 @@ sl() {
   fi
 }
 ```
+
